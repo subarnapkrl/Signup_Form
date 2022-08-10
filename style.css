@@ -8,12 +8,20 @@ body{
 }
 
 .text{
-    background-color: #3F4E4F;
+    background-color: #2B4865;
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 30%;
+    opacity: 0.85;
 
+
+}
+.left{
+    position: relative;
 }
 .plant{
     width: 40%;
@@ -21,10 +29,14 @@ body{
 }
 
 .logo{
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
+   
 }
 .heading{
-    font-size: 32px;
+    font-size: 64px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    
     
 }
