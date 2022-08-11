@@ -6,37 +6,21 @@
 body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-
-.text{
-    background-color: #2B4865;
-    width: 40%;
+.whole{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
-    position: absolute;
-    top: 30%;
-    opacity: 0.85;
-
-
-}
-.left{
-    position: relative;
-}
-.plant{
-    width: 40%;
-    height: 100%;
-}
-
-.logo{
-    width: 8%;
-    height: 8%;
-   
-}
-.heading{
-    font-size: 64px;
-    margin-left: 10px;
-    text-transform: uppercase;
     
+}
+.left-side{
+    background-color: aqua;
+    background-image: url("./img.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
+    width: 45vw;
+    height: 100vh;
+}
+.credit{
+    background-color: aqua;
+    display: flex;
 }
